@@ -1,6 +1,10 @@
 {
   "name": "freese",
   "private": true,
+  "scripts": {
+    "add-react": "cd packages && npx nano-react-app",
+    "storybook": "yarn lerna run storybook --stream"
+  },
   "devDependencies": {
     "lerna": "^3.20.2"
   },
